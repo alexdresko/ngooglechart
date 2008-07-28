@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nGoogleChart", "nGoogleChart\nGoogleChart.csproj", "{F812C04A-832E-4769-8F71-97E04757E02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nGoogleChart.Tests", "nGoogleChart.Tests\nGoogleChart.Tests.csproj", "{77DDA92E-D0AD-4931-89FC-117D3A6B3417}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{918C9F2D-B59E-4B4E-99CD-0D0238C8585D}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		nGoogleChart.vsmdi = nGoogleChart.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = nGoogleChart.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F812C04A-832E-4769-8F71-97E04757E02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F812C04A-832E-4769-8F71-97E04757E02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F812C04A-832E-4769-8F71-97E04757E02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F812C04A-832E-4769-8F71-97E04757E02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DDA92E-D0AD-4931-89FC-117D3A6B3417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DDA92E-D0AD-4931-89FC-117D3A6B3417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DDA92E-D0AD-4931-89FC-117D3A6B3417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DDA92E-D0AD-4931-89FC-117D3A6B3417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

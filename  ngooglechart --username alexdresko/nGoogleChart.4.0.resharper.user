@@ -1,0 +1,71 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:DataSetCollection.cs" caret="133" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:MapDataSet.cs" caret="44" scrollPosition="0|1" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="831" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="267" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:LineChart.cs" caret="209" scrollPosition="0|0" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="1942" scrollPosition="0|17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="148" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="130" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="263" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="364" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="517" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="139" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:DataSetCollection.cs" caret="133" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:MapDataSet.cs" caret="44" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="831" scrollPosition="0|0" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="1942" scrollPosition="0|17" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:LineChart.cs" caret="216" scrollPosition="0|0" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="303" scrollPosition="0|0" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="306" scrollPosition="0|0" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="2063" scrollPosition="0|20" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="prop" priority="2" />
+      <Item value="string" priority="0" />
+      <Item value="public" priority="3" />
+      <Item value="enum" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="abstract" priority="1" />
+      <Item value="BaseURL" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="DataSetCollection" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="new" priority="0" />
+      <Item value="nGoogleChart" priority="1" />
+      <Item value="chart" priority="1" />
+      <Item value="Encoding" priority="0" />
+      <Item value="TextEncoding" priority="0" />
+      <Item value="GetURL" priority="0" />
+      <Item value="Assert" priority="0" />
+      <Item value="IsTrue" priority="0" />
+      <Item value="url" priority="0" />
+      <Item value="Contains" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
