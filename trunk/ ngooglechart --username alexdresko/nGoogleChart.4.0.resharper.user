@@ -9,34 +9,57 @@
   </UnitTestRunner>
   <RecentFiles>
     <RecentFiles>
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:DataSetCollection.cs" caret="133" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:MapDataSet.cs" caret="44" scrollPosition="0|1" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="831" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="267" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:LineChart.cs" caret="209" scrollPosition="0|0" />
-      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="1942" scrollPosition="0|17" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ValueCollection.cs" caret="0" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:StringValueAttribute.cs" caret="601" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:DataSetCollection.cs" caret="136" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartDataSet.cs" caret="0" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:AxisLabelCollection.cs" caret="134" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="518" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:AxisLabel.cs" caret="412" scrollPosition="0|0" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="3574" scrollPosition="0|79" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Chart.cs" caret="1594" scrollPosition="0|50" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="2809" scrollPosition="0|66" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:GridSettings.cs" caret="776" scrollPosition="0|11" />
+      <File id="d:Miscellaneous Files/f:ESSWebPartBase.cs" caret="0" scrollPosition="0|0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="148" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="130" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="263" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="364" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="517" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="139" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:DataSetCollection.cs" caret="133" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:MapDataSet.cs" caret="44" scrollPosition="0|0" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:ChartBase.cs" caret="831" scrollPosition="0|0" />
-      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="1942" scrollPosition="0|17" />
-      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:LineChart.cs" caret="216" scrollPosition="0|0" />
-      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="303" scrollPosition="0|0" />
-      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="306" scrollPosition="0|0" />
-      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="2063" scrollPosition="0|20" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="6484" scrollPosition="0|150" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="3578" scrollPosition="0|54" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="3874" scrollPosition="0|54" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="8580" scrollPosition="0|175" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="6486" scrollPosition="0|149" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="6917" scrollPosition="0|172" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="2220" scrollPosition="0|35" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:AxisLabel.cs" caret="222" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="317" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Chart.cs" caret="257" scrollPosition="0|0" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="5853" scrollPosition="0|147" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="4039" scrollPosition="0|39" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="4118" scrollPosition="0|53" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="4039" scrollPosition="0|60" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="10068" scrollPosition="0|210" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Chart.cs" caret="1823" scrollPosition="0|22" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="7447" scrollPosition="0|177" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:GridSettings.cs" caret="860" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:GridSettings.cs" caret="779" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:GridSettings.cs" caret="460" scrollPosition="0|0" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="1570" scrollPosition="0|35" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="1728" scrollPosition="0|35" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="2588" scrollPosition="0|51" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Chart.cs" caret="1176" scrollPosition="0|25" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="2884" scrollPosition="0|57" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="5660" scrollPosition="0|117" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="5403" scrollPosition="0|124" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="2973" scrollPosition="0|50" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="2928" scrollPosition="0|48" />
+      <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="606" scrollPosition="0|7" />
     </RecentEdits>
   </RecentFiles>
   <SettingsComponent>
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
       <setting name="UseSolutionBuilder">False</setting>
     </boolean>
@@ -47,25 +70,125 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="prop" priority="2" />
-      <Item value="string" priority="0" />
-      <Item value="public" priority="3" />
-      <Item value="enum" priority="0" />
+      <Item value="string" priority="13" />
+      <Item value="public" priority="18" />
+      <Item value="enum" priority="1" />
       <Item value="int" priority="1" />
-      <Item value="abstract" priority="1" />
-      <Item value="BaseURL" priority="0" />
-      <Item value="List" priority="0" />
-      <Item value="DataSetCollection" priority="0" />
-      <Item value="var" priority="1" />
-      <Item value="new" priority="0" />
-      <Item value="nGoogleChart" priority="1" />
-      <Item value="chart" priority="1" />
-      <Item value="Encoding" priority="0" />
+      <Item value="abstract" priority="2" />
+      <Item value="BaseURL" priority="1" />
+      <Item value="List" priority="6" />
+      <Item value="DataSetCollection" priority="1" />
+      <Item value="var" priority="29" />
+      <Item value="new" priority="31" />
+      <Item value="nGoogleChart" priority="2" />
+      <Item value="chart" priority="44" />
+      <Item value="Encoding" priority="4" />
       <Item value="TextEncoding" priority="0" />
-      <Item value="GetURL" priority="0" />
-      <Item value="Assert" priority="0" />
-      <Item value="IsTrue" priority="0" />
-      <Item value="url" priority="0" />
-      <Item value="Contains" priority="0" />
+      <Item value="GetURL" priority="10" />
+      <Item value="Assert" priority="16" />
+      <Item value="IsTrue" priority="14" />
+      <Item value="url" priority="9" />
+      <Item value="Contains" priority="12" />
+      <Item value="class" priority="0" />
+      <Item value="StringValue" priority="8" />
+      <Item value="GetStringValue" priority="4" />
+      <Item value="GetStartOfChartDataSection" priority="1" />
+      <Item value="TestMethod" priority="10" />
+      <Item value="LineChart" priority="2" />
+      <Item value="DataSets" priority="7" />
+      <Item value="Add" priority="10" />
+      <Item value="MapDataSet" priority="1" />
+      <Item value="float" priority="0" />
+      <Item value="Values" priority="10" />
+      <Item value="ValueCollection" priority="1" />
+      <Item value="char" priority="3" />
+      <Item value="Encoding.TextEncoding" priority="0" />
+      <Item value="ChartBase" priority="5" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="return" priority="3" />
+      <Item value="Join" priority="7" />
+      <Item value="ToArray" priority="7" />
+      <Item value="dataSection" priority="0" />
+      <Item value="AsQueryable" priority="0" />
+      <Item value="ForEach" priority="0" />
+      <Item value="a" priority="0" />
+      <Item value="ToString" priority="6" />
+      <Item value="Select" priority="5" />
+      <Item value="p" priority="4" />
+      <Item value="setvalue" priority="0" />
+      <Item value="GetCommaSeparatedValues" priority="1" />
+      <Item value="s" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="datasets" priority="1" />
+      <Item value="ds" priority="0" />
+      <Item value="combined" priority="0" />
+      <Item value="parameters" priority="8" />
+      <Item value="combinedParameters" priority="0" />
+      <Item value="GetCombinedDataSection" priority="0" />
+      <Item value="Encoding.ExtendedEncoding" priority="0" />
+      <Item value="void" priority="8" />
+      <Item value="GetLineChartForTesting" priority="10" />
+      <Item value="this" priority="1" />
+      <Item value="EndsWith" priority="1" />
+      <Item value="private" priority="0" />
+      <Item value="_targetURL" priority="2" />
+      <Item value="StartsWith" priority="1" />
+      <Item value="if" priority="4" />
+      <Item value="Width" priority="2" />
+      <Item value="Height" priority="1" />
+      <Item value="throw" priority="1" />
+      <Item value="ApplicationException" priority="3" />
+      <Item value="ExpectedException" priority="1" />
+      <Item value="typeof" priority="1" />
+      <Item value="GetFullSizeSection" priority="1" />
+      <Item value="sizeSection" priority="0" />
+      <Item value="Chart" priority="2" />
+      <Item value="URLHelper" priority="4" />
+      <Item value="GetFullDataSection" priority="0" />
+      <Item value="ChartType.LineChart" priority="0" />
+      <Item value="ChartType" priority="0" />
+      <Item value="GetTestableValue" priority="2" />
+      <Item value="fullChartSection" priority="0" />
+      <Item value="GetFullChartSection" priority="1" />
+      <Item value="AxisLabelCollection" priority="4" />
+      <Item value="AxisLabel" priority="5" />
+      <Item value="SByte" priority="0" />
+      <Item value="LabelLocation" priority="7" />
+      <Item value="X" priority="0" />
+      <Item value="LabelLocation.X" priority="0" />
+      <Item value="List&lt;string&gt;" priority="2" />
+      <Item value="AxisLabels" priority="3" />
+      <Item value="LabelLocation.Right" priority="0" />
+      <Item value="String" priority="0" />
+      <Item value="Format" priority="0" />
+      <Item value="combinedAxisLabels" priority="0" />
+      <Item value="GetFullAxisLabelSection" priority="1" />
+      <Item value="LabelLocation.Top" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="Count" priority="2" />
+      <Item value="axisLabelIndex" priority="2" />
+      <Item value="axisLabel" priority="1" />
+      <Item value="axisValueList" priority="2" />
+      <Item value="toar" priority="0" />
+      <Item value="fullAxisLabelSection" priority="0" />
+      <Item value="Where" priority="0" />
+      <Item value="Trim" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="IsFalse" priority="0" />
+      <Item value="LabelLocation.Y" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="GridSettings" priority="9" />
+      <Item value="double" priority="0" />
+      <Item value="ConfigureGrid" priority="0" />
+      <Item value="YAxisStepSize" priority="1" />
+      <Item value="yAxisStepSize" priority="2" />
+      <Item value="xAxisStepSize" priority="1" />
+      <Item value="null" priority="0" />
+      <Item value="HasValue" priority="3" />
+      <Item value="gridSetting" priority="0" />
+      <Item value="XAxisStepSize" priority="2" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
