@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace nGoogleChart
 {
@@ -9,7 +8,7 @@ namespace nGoogleChart
     {
         public static string GetCombinedParameters(List<string> parameters)
         {
-            return string.Join("&", parameters.Where(p=>p.Trim().Length > 0).ToArray());
+            return string.Join("&", parameters.Where(p => p.Trim().Length > 0).ToArray());
         }
 
         //public static string GetDataSection(IEnumerable<string> values, Encoding encoding)
@@ -46,25 +45,25 @@ namespace nGoogleChart
 
         public static string GetFullSizeSection(Chart chart)
         {
-
             return string.Format("chs={0}x{1}", chart.Width, chart.Height);
         }
 
         public static string GetChartURL(Chart chart)
         {
-
-
             Validate(chart);
 
-            var parameters = new List<string>();
-            parameters.Add(URLHelper.GetFullSizeSection(chart));
-            parameters.Add(URLHelper.GetFullDataSection(chart));
-            parameters.Add((URLHelper.GetFullChartSection(chart)));
-            parameters.Add(URLHelper.GetFullChartSection(chart));
-            parameters.Add(URLHelper.GetFullAxisEnableSection(chart));
-            parameters.Add(URLHelper.GetFullAxisLabelSection(chart));
-            parameters.Add("b=1");
-            var combinedParameters = URLHelper.GetCombinedParameters(parameters);
+            var parameters = new List<string>
+                                 {
+                                     GetFullSizeSection(chart),
+                                     GetFullDataSection(chart),
+                                     (GetFullChartSection(chart)),
+                                     GetFullChartSection(chart),
+                                     GetFullAxisEnableSection(chart),
+                                     GetFullAxisLabelSection(chart),
+                                     GetFullGridLineSection(chart),
+                                     "b=1"
+                                 };
+            var combinedParameters = GetCombinedParameters(parameters);
             var fullURL = chart.BaseURL + combinedParameters;
             return fullURL;
         }
@@ -72,7 +71,8 @@ namespace nGoogleChart
         private static void Validate(Chart chart)
         {
             XAndYAxisStepSizeMustBothBeSpecifiedIfEitherIsSpecified(chart);
-
+            LengthOfLineSegmentAndLengthOfBlankSegmentMustBothBeSpecifiedIfEitherIsSpecified(chart);
+            XAndYAxisStepSizeMustBeSpecifiedIfLengthIsSpecified(chart);
             WidthAndHeightAreValid(chart);
         }
 
@@ -81,6 +81,25 @@ namespace nGoogleChart
             if ((!chart.GridSettings.XAxisStepSize.HasValue && chart.GridSettings.YAxisStepSize.HasValue)
                 || (!chart.GridSettings.YAxisStepSize.HasValue && chart.GridSettings.XAxisStepSize.HasValue))
                 throw new ApplicationException("X and Y axis step sizes must both be specified.");
+        }
+
+        private static void LengthOfLineSegmentAndLengthOfBlankSegmentMustBothBeSpecifiedIfEitherIsSpecified(Chart chart)
+        {
+            if ((!chart.GridSettings.LengthOfBlankSegment.HasValue && chart.GridSettings.LengthOfLineSegment.HasValue)
+                ||
+                (!chart.GridSettings.LengthOfLineSegment.HasValue && chart.GridSettings.LengthOfBlankSegment.HasValue))
+                throw new ApplicationException(
+                    "LengthOfLineSegment and LengthOfBlank must both be specified if either is specified.");
+        }
+
+        private static void XAndYAxisStepSizeMustBeSpecifiedIfLengthIsSpecified(Chart chart)
+        {
+            if ((chart.GridSettings.LengthOfBlankSegment.HasValue || chart.GridSettings.LengthOfLineSegment.HasValue) &&
+                (!chart.GridSettings.XAxisStepSize.HasValue || !chart.GridSettings.YAxisStepSize.HasValue))
+            {
+                throw new ApplicationException(
+                    "X and Y axis step sizes must be specified if line segment length is specified.");
+            }
         }
 
         private static void WidthAndHeightAreValid(Chart chart)
@@ -99,37 +118,56 @@ namespace nGoogleChart
         public static string GetFullAxisEnableSection(Chart chart)
         {
             var combinedAxisEnableSection = String.Join(",",
-                                                 chart.AxisLabels.Select(p => p.LabelLocation.GetStringValue()).ToArray());
+                                                        chart.AxisLabels.Select(p => p.LabelLocation.GetStringValue()).
+                                                            ToArray());
 
             return string.Format("chxt={0}", combinedAxisEnableSection);
         }
 
         public static string GetFullAxisLabelSection(Chart chart)
         {
-            List<string> axisValueList = GetAxisLabelValueList(chart);
+            var axisValueList = GetAxisLabelValueList(chart);
 
+            var fullAxisLabelSection = string.Empty;
+
+            
             if (axisValueList.Count > 0)
-                return "chxl=" + string.Join("|", axisValueList.ToArray());
-            else
-            {
-                return "";
-            }
+                fullAxisLabelSection = "chxl=" + string.Join("|", axisValueList.ToArray());
+
+            return fullAxisLabelSection;
+
         }
 
         private static List<string> GetAxisLabelValueList(Chart chart)
         {
             var axisValueList = new List<string>();
 
-            for (int axisLabelIndex = 0; axisLabelIndex < chart.AxisLabels.Count; axisLabelIndex++)
+            for (var axisLabelIndex = 0; axisLabelIndex < chart.AxisLabels.Count; axisLabelIndex++)
             {
                 var axisLabel = chart.AxisLabels[axisLabelIndex];
                 if (axisLabel.Values.Count > 0)
                 {
                     var combinedValues = string.Join("|", axisLabel.Values.ToArray());
-                    axisValueList.Add(string.Format("{0}:|{1}", axisLabelIndex.ToString(), combinedValues));
+                    axisValueList.Add(string.Format("{0}:|{1}", axisLabelIndex, combinedValues));
                 }
             }
             return axisValueList;
+        }
+
+
+        public static string GetFullGridLineSection(Chart chart)
+        {
+            var stepSize = string.Empty;
+            if (chart.GridSettings.XAxisStepSize.HasValue && chart.GridSettings.YAxisStepSize.HasValue)
+                stepSize = chart.GridSettings.XAxisStepSize + "," + chart.GridSettings.YAxisStepSize;
+
+            if (chart.GridSettings.LengthOfLineSegment.HasValue && chart.GridSettings.LengthOfBlankSegment.HasValue)
+                stepSize += "," + chart.GridSettings.LengthOfLineSegment + "," + chart.GridSettings.LengthOfBlankSegment;
+
+            if (stepSize.Length > 0)
+                stepSize = "chg=" + stepSize;
+
+            return stepSize;
         }
     }
 }
