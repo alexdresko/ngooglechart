@@ -35,7 +35,18 @@ namespace nGoogleChart
                 datasets.Add(GetCommaSeparatedValues(ds.Values.Select(p => p.ToString())));
             }
 
-            return string.Join("|", datasets.ToArray());
+            string separator = GetSeparator(chart);
+
+            return string.Join(separator, datasets.ToArray());
+        }
+
+        private static string GetSeparator(Chart chart)
+        {
+            var separator = "";
+
+            if (chart.Encoding == Encoding.TextEncoding)
+                separator = ",";
+            return separator;
         }
 
         public static string GetFullDataSection(Chart chart)

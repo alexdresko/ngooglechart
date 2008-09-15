@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace nGoogleChart
 {
-    public class ValueCollection : List<float>
+    public class ValueCollection : List<ValueInformation>
     {
     }
 }

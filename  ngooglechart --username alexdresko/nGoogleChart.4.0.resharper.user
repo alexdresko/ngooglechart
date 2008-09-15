@@ -16,11 +16,10 @@
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:AxisLabelCollection.cs" caret="134" scrollPosition="0|0" />
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Enums.cs" caret="518" scrollPosition="0|0" />
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:AxisLabel.cs" caret="412" scrollPosition="0|0" />
-      <File id="d:Miscellaneous Files/f:ESSWebPartBase.cs" caret="850" scrollPosition="0|0" />
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:GridSettings.cs" caret="811" scrollPosition="0|0" />
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:Chart.cs" caret="1032" scrollPosition="0|0" />
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="7014" scrollPosition="0|140" />
-      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="11229" scrollPosition="0|278" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="0" scrollPosition="0|0" />
     </RecentFiles>
     <RecentEdits>
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:GridSettings.cs" caret="460" scrollPosition="0|0" />
@@ -52,7 +51,7 @@
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="6973" scrollPosition="0|137" />
       <File id="F812C04A-832E-4769-8F71-97E04757E02B/f:URLHelper.cs" caret="2295" scrollPosition="0|25" />
       <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="11233" scrollPosition="0|282" />
-      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="12179" scrollPosition="0|304" />
+      <File id="77DDA92E-D0AD-4931-89FC-117D3A6B3417/f:GeneralTests.cs" caret="12464" scrollPosition="0|308" />
     </RecentEdits>
   </RecentFiles>
   <SettingsComponent>
@@ -78,13 +77,13 @@
       <Item value="BaseURL" priority="1" />
       <Item value="List" priority="6" />
       <Item value="DataSetCollection" priority="1" />
-      <Item value="var" priority="35" />
+      <Item value="var" priority="37" />
       <Item value="new" priority="38" />
       <Item value="nGoogleChart" priority="3" />
-      <Item value="chart" priority="56" />
-      <Item value="Encoding" priority="4" />
+      <Item value="chart" priority="58" />
+      <Item value="Encoding" priority="5" />
       <Item value="TextEncoding" priority="0" />
-      <Item value="GetURL" priority="13" />
+      <Item value="GetURL" priority="14" />
       <Item value="Assert" priority="20" />
       <Item value="IsTrue" priority="18" />
       <Item value="url" priority="13" />
@@ -129,7 +128,7 @@
       <Item value="GetCombinedDataSection" priority="0" />
       <Item value="Encoding.ExtendedEncoding" priority="0" />
       <Item value="void" priority="11" />
-      <Item value="GetLineChartForTesting" priority="11" />
+      <Item value="GetLineChartForTesting" priority="12" />
       <Item value="this" priority="1" />
       <Item value="EndsWith" priority="1" />
       <Item value="private" priority="1" />
@@ -201,6 +200,7 @@
       <Item value="lengthOfBlankSegment" priority="2" />
       <Item value="Empty" priority="0" />
       <Item value="GetFullGridLineSection" priority="1" />
+      <Item value="Encoding.SimpleEncoding" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
